@@ -18,10 +18,10 @@ func zoom(by : Vector2):
 	camera_pos *= by
 	update_position()
 
-
-func translate(by : Vector2):
-	camera_pos += by
-	update_position()
+# this function is now inbuilt to godot
+# func translate(by : Vector2):
+#	camera_pos += by
+#	update_position()
 
 
 func update_position():

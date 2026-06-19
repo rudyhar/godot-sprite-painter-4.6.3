@@ -1,5 +1,5 @@
 @tool
-extends "res://addons/sprite_painter/src/editing_tools/tool_brush.gd"
+extends "tool_brush.gd"
 
 var fill_mode := 0
 var tolerance := 0.0
